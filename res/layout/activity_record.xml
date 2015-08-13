@@ -7,7 +7,7 @@
     <SurfaceView
         android:id="@+id/SurfaceView"
         android:layout_width="450px"
-        android:layout_height="351dp"
+        android:layout_height="169dp"
         android:visibility="visible" />
 
     <RelativeLayout
@@ -30,7 +30,16 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/start"
             android:layout_centerHorizontal="true"
-            android:visibility="gone" />"
+            android:visibility="gone" />
     </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
 
 </LinearLayout>
